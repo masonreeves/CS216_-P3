@@ -232,17 +232,27 @@ if __name__ == "__main__":
     #random.seed( -1 () #can set number to get same random numbers
         
     print( "Enter player 1 name: " )
-    #player1 = input() #comment out when debugging
-    player1 = "Alice"  #comment out when submitting
+    player1 = input() #comment out when debugging
+    #player1 = "Alice"  #comment out when submitting
     
     print( "Enter player 2 name: " )
-    #player2 = input() #comment out when debugging
-    player2 = "Bob"  #comment out when submitting
+    player2 = input() #comment out when debugging
+    #player2 = "Bob"  #comment out when submitting
+
+    print( "Enter player 3 name: " )
+    player3 = input() #comment out when debugging
+   # player3 = "John"  #comment out when submitting
+
+    print( "Enter player 4 name: " )
+    player4 = input() #comment out when debugging
+   # player4 = "Hannah"  #comment out when submitting
     
     print()
     
     player1Position = 0
     player2Position = 0
+    player3Position = 0
+    player4Position = 0
     
     gameOver = False
     while gameOver != True:
