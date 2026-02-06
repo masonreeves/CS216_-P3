@@ -263,6 +263,16 @@ if __name__ == "__main__":
         if gameOver != True:
             player2Position = processTurn( player2, player2Position )
             gameOver = gameWon( player2Position )
+
+
+        if gameOver != True:
+            player3Position = processTurn( player3, player3Position )
+            gameOver = gameWon( player3Position )
+
+
+        if gameOver != True:
+            player4Position = processTurn( player4, player4Positio )
+            gameOver = gameWon( player4Position )
      
         #while loop
 
