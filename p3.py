@@ -118,34 +118,34 @@ def upLadder( N ):
     if N == 1:
            result = 38
            
-    if N == 2:
+    elif N == 2:
            result = 2
             
-    if N == 4:
+    elif N == 4:
            result = 14
             
-    if N == 9:
+    elif N == 9:
            result = 31
             
-    if N == 21:
+    elif N == 21:
            result = 42
             
-    if N == 28:
+    elif N == 28:
            result = 84
             
-    if N == 36:
+    elif N == 36:
            result = 44
            
-    if N == 50:
+    elif N == 50:
            result = 50
             
-    if N == 51:
+    elif N == 51:
            result = 67
             
-    if N == 71:
+    elif N == 71:
            result = 91
             
-    if N == 80:
+    elif N == 80:
            result = 100
                 
 
@@ -161,31 +161,31 @@ def downChute( N ):
     if N == 16:
         result = 6
         
-    if N == 47:
+    elif N == 47:
         result = 26
     
-    if N == 49:
+    elif N == 49:
         result = 11
         
-    if N == 56:
+    elif N == 56:
         result = 53
         
-    if N == 62:
+    elif N == 62:
         result = 19
         
-    if N == 64:
+    elif N == 64:
         result = 60
         
-    if N == 87:
+    elif N == 87:
         result = 24
         
-    if N == 93:
+    elif N == 93:
         result = 73
         
-    if N == 95:
+    elif N == 95:
         result = 75
         
-    if N == 98:
+    elif N == 98:
         result = 78
         
     
